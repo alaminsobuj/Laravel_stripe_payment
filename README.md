@@ -1,4 +1,4 @@
-# Laravel_stripe_payment
+# Laravel stripe payment
 This is Laravel Stripe payment getaway
 # 1. Install composer command 
 <strong>composer require stripe/stripe-php</strong>
