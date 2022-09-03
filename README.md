@@ -5,14 +5,17 @@ This is Laravel Stripe payment getaway
 
 # Create account from stripe.com
 #2. Go stripe developer page and  click  API keys menu  see this two 
+<br>
 STRIPE_KEY=pk_test_reFxwbsm9cdCKASdTfxAR
+<br>
 STRIPE_SECRET=sk_test_oQMFWteJiPd4wj4AtgApY
+<br>
 #3. create view page method 
     
     public function gotoStripe() {
              return view('website.stripe');
     }
-    
+ <br>   
 #4. view page submit button click than create this method 
  public function stripepayment(Request $request) {
 
@@ -61,7 +64,7 @@ STRIPE_SECRET=sk_test_oQMFWteJiPd4wj4AtgApY
         return response()->redirectTo('/');
  
     }
-    
+  <br>  
 demo card 
 1. visa card no: 4242424242424242
 2. 123
