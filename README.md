@@ -66,8 +66,11 @@ STRIPE_SECRET=sk_test_oQMFWteJiPd4wj4AtgApY
     }
   <br>  
 demo card 
-1. visa card no: 4242424242424242
-2. 123
-4. Future month and year
+<ul>
+    <li>visa card no: 4242424242424242</li>
+    <li>123</li>
+    <li> Future month and year</li>
+</ul>
 
 
+<strong>#Thank you# </strong>
